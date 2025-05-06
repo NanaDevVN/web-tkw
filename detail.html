@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Chủ - Web Truyện</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .container {
+            display: flex;
+            column-gap: 40px;
+        }
+
+        .title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title-row input {
+            padding: 10px;
+            border-radius: 4px;
+            border: none;
+            background-color: var(--cl-bg-secondary);
+            color: white;
+            cursor: pointer;
+        }
+
+        .has-followed {
+            background-color: var(--cl-accent-primary) !important;
+        }
+
+        .cover img {
+            max-width: 300px;
+        }
+
+        .side {
+            width: 100%;
+        }
+
+        .info h1, .info p {
+            margin: 10px 0;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .25em;
+        }
+
+        .tags p {
+            padding: 4px 10px;
+            background-color: var(--cl-bg-secondary);
+            display: inline-block;
+            border-radius: 4px;
+        }
+
+        .chapters {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+
+        .chapters a {
+            text-decoration: none;
+            padding: 10px;
+            background-color: var(--cl-bg-secondary);
+            color: var(--cl-text-light);
+            transition: color 0.45s ease;
+        }
+
+        .chapters a:hover {
+            color: var(--cl-accent-primary);
+        }
+    </style>
+</head>
+<body>
+<div class="stick-on-top">
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="Web Truyện Logo" />
+            </a>
+        </div>
+        <div class="search-box" id="searchBox">
+            <input type="text" placeholder="Nhập tên truyện muốn tìm" />
+            <img src="assets/icon/search.svg" alt="Tìm kiếm" />
+        </div>
+        <div class="user-profile has-logged" id="userProfile">
+            <div class="user-avatar">
+                <img src="user/test/user-test-profile.gif" alt="User Avatar" />
+            </div>
+            <div class="user-action hidden">
+                <ul>
+                    <li action-tag="user-name">Xin chào <a href="#">test</a></li>
+                    <hr />
+                    <li action-tag="logout"><a href="#">Đăng Xuất</a></li>
+                    <li action-tag="register"><a href="register.html">Đăng Ký</a></li>
+                    <li action-tag="login"><a href="login.html">Đăng Nhập</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="watchlist.html">Theo Dõi</a>
+        <a href="history.html">Lịch Sử</a>
+    </nav>
+</div>
+<main>
+    <div class="container">
+        <div class="cover">
+            <img id="comic-cover" />
+        </div>
+        <div class="side">
+            <div class="info">
+                <div class="title-row">
+                    <h1 id="comic-title">Đang tải...</h1>
+                    <input id="followed-button" type="button" value="">
+                </div>
+                <p><strong>Tác giả:</strong> <span id="comic-author">Đang tải...</span></p>
+                <div class="tags" id="comic-tags"></div>
+                <p id="comic-description"><strong>Mô tả:</strong> Đang tải...</p>
+            </div>
+            <h2>Danh sách chương</h2>
+            <div class="chapters" id="comic-chapters"></div>
+        </div>
+    </div>
+</main>
+<hr />
+<footer>
+    <p>© 2025 - 2424801030027, All rights reserved</p>
+</footer>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/details.js" type="module"></script>
+</body>
+</html>

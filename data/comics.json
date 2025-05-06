@@ -1,0 +1,16 @@
+{
+  "comics": [
+    {
+      "name": "Doraemon",
+      "comic-code": "0"
+    },
+    {
+      "name": "Ogami Tsumiki to Kinichijou",
+      "comic-code": "1"
+    },
+    {
+      "name": "The Girl I Like Forgot Her Glasses",
+      "comic-code": "2"
+    }
+  ]
+}

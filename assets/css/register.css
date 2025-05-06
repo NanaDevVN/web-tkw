@@ -1,0 +1,211 @@
+/* Root Variables */
+:root {
+    --cl-bg-primary: #1A1A1A; /* Dominant dark */
+    --cl-bg-secondary: #2D2D2D; /* Secondary dark */
+    --cl-accent-primary: #1E88E5; /* Primary accent */
+    --cl-accent-hover: #4AA8FF; /* Hover accent */
+    --cl-accent-highlight: #F39C12; /* Highlight */
+    --cl-text-light: #E0E0E0; /* Text on dark */
+    --cl-text-dark: #333333; /* Text on light */
+    --cl-error: #FF4444; /* Error */
+}
+
+/* Global Styles */
+*, :before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: var(--cl-bg-primary);
+    color: var(--cl-text-dark);
+}
+
+/* Main Content */
+.register {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Register Form */
+.register-form {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 50px 20px 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--cl-text-dark);
+}
+
+.register-form form {
+    width: 100%;
+}
+
+/* Form Fields */
+.field-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.field-wrap label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1em;
+}
+
+.field-wrap .req {
+    color: var(--cl-error);
+    margin-left: 5px;
+}
+
+.form-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-input input {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1em;
+}
+
+/* Form Actions */
+.form-action {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.form-action input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--cl-accent-primary);
+    color: var(--cl-text-light);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-action input[type="submit"]:hover {
+    background-color: var(--cl-accent-hover);
+}
+
+.form-action hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+.form-action .link {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.form-action .link a {
+    color: var(--cl-accent-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.form-action .link a:hover {
+    color: var(--cl-accent-hover);
+}
+
+.form-action p {
+    margin: 10px 0;
+    color: var(--cl-text-dark);
+}
+
+.sign-in-with-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #EA4335;
+    color: var(--cl-text-light);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in-with-google:hover {
+    background-color: #C13524;
+}
+
+.sign-in-with-google svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Exit Button */
+.exit input {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background: url(../icon/x.svg) no-repeat center;
+    background-size: contain;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .register-form {
+        padding: 40px 15px 20px;
+    }
+
+    .field-wrap label {
+        font-size: 0.9em;
+    }
+
+    .form-input input {
+        font-size: 0.9em;
+    }
+
+    .form-action {
+        font-size: 0.85em;
+    }
+}
+
+/* Accessibility */
+.form-input input:focus,
+.form-action input[type="submit"]:focus,
+.sign-in-with-google:focus,
+.exit input:focus {
+    outline: 2px solid var(--cl-accent-primary);
+    outline-offset: 2px;
+}

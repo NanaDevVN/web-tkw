@@ -1,0 +1,26 @@
+{
+  "comic": {
+    "comic-code": "0",
+    "name": "Doraemon",
+    "author": "Fujiko F. Fujio",
+    "tags": [
+      "sci-fi",
+      "time travel",
+      "action",
+      "animals",
+      "comedy",
+      "adventure",
+      "drama",
+      "school life",
+      "fantasy",
+      "delinquents",
+      "slice of life"
+    ],
+    "description": [
+      "\"Doraemon\" là kiệt tác của Fujiko F. Fujio, một trong những cặp đôi mangaka nổi tiếng nhất Nhật Bản. Doraemon, một chú mèo robot đến từ tương lai, và người bạn thân nhất của mình, Nobita, chia sẻ một tình bạn kỳ diệu.",
+      "Những công cụ bí ẩn được lấy ra từ chiếc túi bốn chiều của Doraemon đã khiến cả Nhật Bản bật cười. Shizu-chan, Suneo và Gian cũng tràn đầy năng lượng. Những công cụ thú vị và tuyệt vời mang đến những giấc mơ lớn sẽ dẫn bạn đến với thế giới ấm áp của Doraemon."
+    ],
+    "cover": "336e7d29-d8dd-4357-b9fb-10b14e2ae933.jpg",
+    "status": 1
+  }
+}

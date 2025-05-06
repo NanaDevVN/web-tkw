@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABCXZY</title>
+    <link rel="stylesheet" href="/static/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
+<body>
+<header>
+    <div class="title">
+        <img src="/static/img/logo/ABCXYZ-TEST_symbolon.png" alt="">
+        <input class="round-border" type="text">
+        <div class="control-button">
+            <a href="dangky.html" target="_blank" class="round-border">Đăng ký</a>
+            <a href="Dangnhap.html" target="_blank" class="round-border">Đăng nhập</a>
+        </div>
+        <div class="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <nav class="mobile-menu">
+        <a href="dangky.html" target="_blank">Đăng ký</a>
+        <a href="Dangnhap.html" target="_blank">Đăng nhập</a>
+    </nav>
+</header>
+<div id="content">
+    <div class="truyen">
+        <div class="truyen-cover">
+            <img src="/static/img/book/z6459908952420_abf52e355ba8f027bead07d5370e8bc5.jpg" alt="">
+            <button>
+                <img src="/static/img/bookmark.svg">
+            </button>
+        </div>
+        <p>Đắc nhân tâm</p>
+    </div>
+    <div class="truyen">
+        <div class="truyen-cover">
+            <img src="/static/img/book/z6459904449822_554666b5f95bbec85890015e0f58c14b.jpg" alt="">
+            <button>
+                <img src="/static/img/bookmark.svg">
+            </button>
+        </div>
+        <p>Chúa tể của những chiếc nhẫn</p>
+    </div>
+    <div class="truyen">
+        <div class="truyen-cover">
+            <img src="/static/img/book/z6459908969266_1dc238681c09ab3c2e8c2e38b8f2aea2.jpg" alt="">
+            <button>
+                <img src="/static/img/bookmark.svg">
+            </button>
+        </div>
+        <p>Những tấm lòng cao cả</p>
+    </div>
+    <div class="truyen">
+        <div class="truyen-cover">
+            <img src="/static/img/book/z6459909003740_5776ced9c61aa9cbb3d8293c21054bb8.jpg" alt="">
+            <button>
+                <img src="/static/img/bookmark.svg">
+            </button>
+        </div>
+        <p>Đắc nhân tâm</p>
+    </div>
+</div>
+<footer>
+    <div class="footer-container">
+        <div id="footerBlockLeft">
+            <img src="/static/img/logo/ABCXYZ-TEST_symbolon.png" alt="">
+            <p>Copyright &copy; 2025 ABCXYZ</p>
+        </div>
+        <div class="footer-grid">
+            <div>
+                <ul>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<style>
+
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuIcon = document.querySelector('.menu-icon');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        if (menuIcon && mobileMenu) {
+            menuIcon.addEventListener('click', function() {
+                mobileMenu.classList.toggle('open');
+            });
+        }
+    });
+</script>
+</body>
+</html>

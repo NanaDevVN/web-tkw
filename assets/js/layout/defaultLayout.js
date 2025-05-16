@@ -8,7 +8,7 @@ function prependStickyHeaderToBody() {
                 </a>
             </div>
             <div class="search-box" id="searchBox">
-                <form action="search.html" method="get">
+                <form action="">
                     <input type="text" placeholder="Nhập tên truyện muốn tìm" name="q"/>
                 </form>
                 <img src="assets/icon/search.svg" alt="Tìm kiếm" />

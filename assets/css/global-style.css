@@ -1,0 +1,19 @@
+/* Root Variables */
+:root {
+    --cl-bg-primary: #1A1A1A; /* Dominant dark */
+    --cl-bg-secondary: #2D2D2D; /* Secondary dark */
+    --cl-accent-primary: #1E88E5; /* Primary accent */
+    --cl-accent-hover: #4AA8FF; /* Hover accent */
+    --cl-accent-highlight: #F39C12; /* Highlight */
+    --cl-text-light: #E0E0E0; /* Text on dark */
+    --cl-text-dark: #333333; /* Text on light */
+    --cl-error: #FF4444; /* Error */
+}
+
+/* Global Styles */
+*, :before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}

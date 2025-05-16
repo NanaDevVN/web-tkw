@@ -1,0 +1,106 @@
+/* Watchlist Section */
+.bookmark-icon::before {
+    mask-image: url(/assets/icon/bookmark-fill.svg);
+    background-color: var(--cl-text-light);
+}
+
+.watchlish-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 30px;
+
+    .watchlist-item {
+        display: flex;
+        gap: 15px;
+        padding: 10px;
+        background-color: var(--cl-bg-secondary);
+        border: 1px solid var(--cl-text-light);
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #3A3A3A;
+        }
+
+        .cover {
+            flex: 0 0 100px;
+
+            img {
+                max-width: 100px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+
+        .info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .title {
+                font-size: 1.5rem;
+
+                p {
+                    font-weight: bold;
+                    color: var(--cl-accent-primary);
+                }
+            }
+
+            .decs {
+                p {
+                    font-size: 0.9em;
+                    color: var(--cl-text-light);
+                    line-height: 1.4;
+                }
+            }
+        }
+    }
+}
+
+.unfollow-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--cl-bg-secondary);
+    color: var(--cl-text-light);
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .watchlist-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .watchlist-item .cover {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+
+    .watchlist-item .cover img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .watchlist-item {
+        padding: 8px;
+    }
+
+    .watchlist-item .title {
+        font-size: 1.2rem;
+    }
+
+    .watchlist-item .decs p {
+        font-size: 0.85em;
+    }
+}
+
+/* Accessibility */
+.watchlist-item:focus {
+    outline: 2px solid var(--cl-accent-primary);
+    outline-offset: 2px;
+}

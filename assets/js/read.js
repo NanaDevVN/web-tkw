@@ -1,6 +1,6 @@
-import {countdown, getDataJSON} from "./utils.js";
-import {initProgressCircle} from './progressCircle.js'
-import { saveToHistory} from "./historyManagement.js";
+import {countdown, getDataJSON} from "./lib/utils.js";
+import {initProgressCircle} from './lib/progressCircle.js'
+import { saveToHistory} from "./lib/historyManagement.js";
 
 async function buildChapter() {
     try {

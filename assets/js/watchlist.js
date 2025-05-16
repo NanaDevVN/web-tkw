@@ -1,5 +1,5 @@
-import { getFollowedList, removeFromFollowedList } from "./followManagement.js";
-import { fetchDetailsData, getComicName } from "./comicData.js";
+import { getFollowedList, removeFromFollowedList } from "./lib/followManagement.js";
+import { fetchDetailsData, getComicName } from "./lib/comicData.js";
 
 // Config
 const CONFIG = {

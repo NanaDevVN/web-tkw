@@ -4,82 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trang Chủ - Web Truyện</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <style>
-        .container {
-            display: flex;
-            column-gap: 40px;
-        }
-
-        .title-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .title-row input {
-            padding: 10px;
-            border-radius: 4px;
-            border: none;
-            background-color: var(--cl-bg-secondary);
-            color: white;
-            cursor: pointer;
-        }
-
-        .has-followed {
-            background-color: var(--cl-accent-primary) !important;
-        }
-
-        .cover img {
-            max-width: 300px;
-        }
-
-        .side {
-            width: 100%;
-        }
-
-        .info h1, .info p {
-            margin: 10px 0;
-        }
-
-        .tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: .25em;
-        }
-
-        .tags p {
-            padding: 4px 10px;
-            background-color: var(--cl-bg-secondary);
-            display: inline-block;
-            border-radius: 4px;
-        }
-
-        .chapters {
-            margin-top: 20px;
-            display: flex;
-            flex-direction: column;
-            row-gap: 10px;
-        }
-
-        .chapters a {
-            text-decoration: none;
-            padding: 10px;
-            background-color: var(--cl-bg-secondary);
-            color: var(--cl-text-light);
-            transition: color 0.45s ease;
-        }
-
-        .chapters a:hover {
-            color: var(--cl-accent-primary);
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/layout/detail.css">
 </head>
 <body>
 <main>
     <div class="container">
         <div class="cover">
-            <img id="comic-cover" />
+            <img id="comic-cover" src="" alt="comicCover"/>
         </div>
         <div class="side">
             <div class="info">

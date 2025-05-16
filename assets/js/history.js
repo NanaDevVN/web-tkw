@@ -1,5 +1,5 @@
-import { getReadingHistory } from "./historyManagement.js";
-import { fetchDetailsData, fetchChaptersData, getComicName, getChapterTitle } from "./comicData.js";
+import { getReadingHistory } from "./lib/historyManagement.js";
+import { fetchDetailsData, fetchChaptersData, getComicName, getChapterTitle } from "./lib/comicData.js";
 
 // Config
 const CONFIG = {

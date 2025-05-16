@@ -1,5 +1,5 @@
-import { getDataJSON } from "./utils.js";
-import { saveToFollowedList, isComicFollowed, removeFromFollowedList } from "./followManagement.js";
+import { getDataJSON } from "./lib/utils.js";
+import { saveToFollowedList, isComicFollowed, removeFromFollowedList } from "./lib/followManagement.js";
 
 // Config
 const COMIC_DETAIL_ENDPOINT = 'data/comic/';

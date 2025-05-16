@@ -1,0 +1,42 @@
+.history-icon::before {
+    mask-image: url(/assets/icon/clock-history.svg);
+}
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 30px;
+
+    .history-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: var(--cl-bg-secondary);
+        border: 1px solid var(--cl-text-light);
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #3A3A3A;
+        }
+
+        .info {
+            p:first-child {
+                font-weight: bold;
+                color: var(--cl-accent-primary);
+            }
+
+            p:nth-child(2) {
+                color: #A0A0A0;
+                font-size: 0.9em;
+            }
+        }
+
+        p {
+            font-size: 0.9em;
+            color: var(--cl-text-light);
+        }
+    }
+}

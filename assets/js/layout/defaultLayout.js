@@ -8,7 +8,9 @@ function prependStickyHeaderToBody() {
                 </a>
             </div>
             <div class="search-box" id="searchBox">
-                <input type="text" placeholder="Nhập tên truyện muốn tìm" />
+                <form action="search.html" method="get">
+                    <input type="text" placeholder="Nhập tên truyện muốn tìm" name="q"/>
+                </form>
                 <img src="assets/icon/search.svg" alt="Tìm kiếm" />
             </div>
             <div class="user-profile has-logged" id="userProfile">
@@ -45,8 +47,8 @@ function appendFooterToBody() {
         <div class="footer-right">
             <p class="copyright">This website utilizes data provided by MangaDex. We assert no ownership over any of the data, which is being used to demonstrate website development for a specific subject.</p>
             <br>
-            <span>This website build and host by using</span>
             <div class="tech-icons">
+                <span>Built with:</span>
                 <a href="#"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/html-light.png" alt="HTML5"></a>
                 <a href="#"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/css-light.png" alt="CSS3"></a>
                 <a href="#"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/javascript.png" alt="JavaScript"></a>

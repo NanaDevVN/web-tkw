@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Truyen</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/layout/index.css">
+    <link rel="stylesheet" href="assets/css/layout/history.css">
 </head>
 <body>
     <main>
@@ -17,48 +19,6 @@
     </main>
 </body>
 <script src="assets/js/main.js"></script>
-<style>
-    .history-container {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 30px;
-    }
-
-    .history-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        background-color: var(--cl-bg-secondary);
-        border: 1px solid var(--cl-text-light);
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-    }
-
-    .history-item:hover {
-        background-color: #3A3A3A;
-    }
-
-    .history-item .info p:first-child {
-        font-weight: bold;
-        color: var(--cl-accent-primary);
-    }
-
-    .history-item .info p:nth-child(2) {
-        color: #A0A0A0;
-        font-size: 0.9em;
-    }
-
-    .history-item p {
-        font-size: 0.9em;
-        color: var(--cl-text-light);
-    }
-
-    .history-icon::before {
-        mask-image: url(assets/icon/clock-history.svg);
-    }
-</style>
 <script src="assets/js/layout/defaultLayout.js"></script>
 <script src="assets/js/history.js" type="module"></script>
 </html>

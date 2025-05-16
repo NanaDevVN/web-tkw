@@ -4,62 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trang Chủ - Web Truyện</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/layout/read.css">
     <link rel="stylesheet" href="assets/css/progessCircle.css">
-    <style>
-        body {
-            position: relative;
-            margin: 0;
-            background: #000;
-            color: white;
-            font-family: sans-serif;
-            text-align: center;
-        }
-
-        .reader-nav {
-            background: #111;
-            padding: 1rem;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .reader-nav a {
-            color: #1e88e5;
-            margin: 0 1rem;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .reader-nav a:hover {
-            color: #4aa8ff;
-        }
-
-        .reader-nav a.disabled {
-            color: #555;
-            pointer-events: none;
-            cursor: default;
-        }
-
-        .chapter-image-list {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .chapter-image-list img {
-            display: block;
-            width: 100%;
-            max-width: 800px;
-            margin: 1rem auto;
-            height: auto;
-        }
-
-        .error {
-            color: #ff4444;
-            padding: 1rem;
-        }
-    </style>
 </head>
 <body>
     <main>
@@ -77,5 +24,5 @@
 <script src="assets/js/layout/readerLayout.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/read.js" type="module"></script>
-<script src="assets/js/progressCircle.js" type="module"></script>
+<script src="assets/js/lib/progressCircle.js" type="module"></script>
 </html>

@@ -1,0 +1,53 @@
+/* Override CSS */
+body {
+    position: relative;
+    margin: 0;
+    background: #000;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.reader-nav {
+    background: #111;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    a {
+        color: #1e88e5;
+        margin: 0 1rem;
+        text-decoration: none;
+        transition: color 0.2s;
+
+        &:hover {
+            color: #4aa8ff;
+        }
+
+        &.disabled {
+            color: #555;
+            pointer-events: none;
+            cursor: default;
+        }
+    }
+}
+
+.chapter-image-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        display: block;
+        width: 100%;
+        max-width: 800px;
+        margin: 1rem auto;
+        height: auto;
+    }
+}
+
+.error {
+    color: #ff4444;
+    padding: 1rem;
+}

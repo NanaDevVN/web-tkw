@@ -7,7 +7,6 @@ const MAX_HISTORY_ITEMS = 20;
  * Saves a reading history entry to localStorage
  * @param {string} comicID - The hex-based ID of the comic
  * @param {string} chapterID - The hex-based ID of the chapter
- * @param {string} [timeStamp] - Optional timestamp (ISO string); if not provided, current time is used
  */
 function saveToHistory(comicID, chapterID) {
     try {

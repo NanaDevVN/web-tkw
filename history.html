@@ -2,48 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Truyen</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <div class="stick-on-top">
-        <header>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="assets/logo.png" alt="">
-                </a>
-            </div>
-            <div class="search-box" id="searchBox">
-                <input type="text" placeholder="Nhập tên truyện muốn tìm">
-                <img src="assets/icon/search.svg" alt="">
-            </div>
-            <div class="user-profile has-logged" id="userProfile">
-                <div class="user-avatar">
-                    <img src="user/test/user-test-profile.gif" alt="">
-                </div>
-                <div class="user-action hidden">
-                    <ul>
-                        <li action-tag="user-name">Xin chào <a href="">test</a></li>
-                        <hr>
-                        <li action-tag="logout"><a href="">Đăng Xuất</a></li>
-                        <li action-tag="register"><a href="register.html">Đăng Ký</a></li>
-                        <li action-tag="login"><a href="login.html">Đăng Nhập</a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-        <nav>
-            <!--
-            <a href="">Thể Loại</a>
-            <a href="">Xếp Hạng</a>
-            -->
-            <a href="watchlist.html">Theo Dõi</a>
-            <a href="history.html">Lịch Sử</a>
-        </nav>
-    </div>
     <main>
         <div class="section-title mask-icon history-icon">
             <p>Lịch Sử</p>
@@ -51,10 +15,6 @@
         <div id="history" class="history-container">
         </div>
     </main>
-    <hr>
-    <footer>
-        <p>&copy; 2025 - 2424801030027, All right reserved</p>
-    </footer>
 </body>
 <script src="assets/js/main.js"></script>
 <style>
@@ -99,5 +59,6 @@
         mask-image: url(assets/icon/clock-history.svg);
     }
 </style>
+<script src="assets/js/layout/defaultLayout.js"></script>
 <script src="assets/js/history.js" type="module"></script>
 </html>

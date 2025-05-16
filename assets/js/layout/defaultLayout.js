@@ -40,7 +40,7 @@ function appendFooterToBody() {
     const footerHTML = `
     <footer>
         <div class="footer-left">
-            <img src="/assets/logo.png" alt="Footer Logo">
+            <img src="assets/logo.png" alt="Footer Logo">
         </div>
         <div class="footer-right">
             <p class="copyright">This website utilizes data provided by MangaDex. We assert no ownership over any of the data, which is being used to demonstrate website development for a specific subject.</p>

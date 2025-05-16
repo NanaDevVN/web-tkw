@@ -1,0 +1,64 @@
+{
+  "type": "hot",
+  "data": [
+    {
+      "comicID": 0,
+      "name": "Doraemon",
+      "author": "Fujiko F. Fujio",
+      "description": [
+        "\"Doraemon\" là kiệt tác của Fujiko F. Fujio, một trong những cặp đôi mangaka nổi tiếng nhất Nhật Bản. Doraemon, một chú mèo robot đến từ tương lai, và người bạn thân nhất của mình, Nobita, chia sẻ một tình bạn kỳ diệu.",
+        "Những công cụ bí ẩn được lấy ra từ chiếc túi bốn chiều của Doraemon đã khiến cả Nhật Bản bật cười. Shizu-chan, Suneo và Gian cũng tràn đầy năng lượng. Những công cụ thú vị và tuyệt vời mang đến những giấc mơ lớn sẽ dẫn bạn đến với thế giới ấm áp của Doraemon."
+      ],
+      "cover": "336e7d29-d8dd-4357-b9fb-10b14e2ae933.jpg"
+    },
+    {
+      "comicID": 1,
+      "name": "Ogami Tsumiki to Kinichijou",
+      "author": "Morishita Miyu",
+      "description": [
+        "Ngày nay, chúng ta sống trong một thời đại đa dạng. Cụm từ \"phi nhân loại\" đã trở thành dĩ vãng. \"Genjin\" sống cuộc sống của họ, tương tác với con người.",
+        "Ngày một cậu bé con người, Yutaka Shinsou, đang gặp rắc rối. Cậu quá quen với việc hòa nhịp với môi trường xung quanh đến mức không còn hiểu được cảm xúc của chính mình. Tại trường trung học Keiki, nơi có nhiều \"Genjin\" theo học, cậu gặp Tsumiki Ogami, một người sói. Cô ấy dễ thương, mạnh mẽ, hơi khác thường và tốt bụng. Khi ở bên cô, trái tim của Yutaka bỗng trở nên ồn ào hơn bình thường. Cùng Tsumiki, người sói, cậu xoay vần một cuộc sống hàng ngày \"khác thường\"."
+      ],
+      "cover": "3e5e0eba-827d-4cec-a98c-097107298d25.png"
+    },
+    {
+      "comicID": 2,
+      "name": "Girls' Last Tour",
+      "author": "Tsukumizu",
+      "description": [
+        "Civilization is dead, but Chito and Yuuri are still alive.",
+        "So they hop aboard their Kettenkrad motorbike and aimlessly wander the ruins of the world they once knew.",
+        "Day after hopeless day, they look for their next meal and fuel for their ride.",
+        "But as long as they are together, even an existence as bleak as theirs has a ray or two of sunshine in it, whether they're sucking down their fill of soup or hunting for machine parts to tinker with.",
+        "The experiences and feelings these two girls share in a world full of nothing give them something to live for…"
+      ],
+      "cover": "760a82b6-ff87-4da2-971b-29a11ad535bc.jpg"
+    },
+    {
+      "comicID": 2,
+      "name": "Girls' Last Tour",
+      "author": "Tsukumizu",
+      "description": [
+        "Civilization is dead, but Chito and Yuuri are still alive.",
+        "So they hop aboard their Kettenkrad motorbike and aimlessly wander the ruins of the world they once knew.",
+        "Day after hopeless day, they look for their next meal and fuel for their ride.",
+        "But as long as they are together, even an existence as bleak as theirs has a ray or two of sunshine in it, whether they're sucking down their fill of soup or hunting for machine parts to tinker with.",
+        "The experiences and feelings these two girls share in a world full of nothing give them something to live for…"
+      ],
+      "cover": "760a82b6-ff87-4da2-971b-29a11ad535bc.jpg"
+    },
+    {
+      "comicID": 2,
+      "name": "Girls' Last Tour",
+      "author": "Tsukumizu",
+      "description": [
+        "Civilization is dead, but Chito and Yuuri are still alive.",
+        "So they hop aboard their Kettenkrad motorbike and aimlessly wander the ruins of the world they once knew.",
+        "Day after hopeless day, they look for their next meal and fuel for their ride.",
+        "But as long as they are together, even an existence as bleak as theirs has a ray or two of sunshine in it, whether they're sucking down their fill of soup or hunting for machine parts to tinker with.",
+        "The experiences and feelings these two girls share in a world full of nothing give them something to live for…"
+      ],
+      "cover": "760a82b6-ff87-4da2-971b-29a11ad535bc.jpg"
+    }
+  ]
+}

@@ -39,9 +39,10 @@
             .tags {
                 display: flex;
                 flex-wrap: wrap;
-                gap: .25em;
+                gap: .5em;
 
                 p {
+                    margin: 2px 0;
                     padding: 4px 10px;
                     background-color: var(--cl-bg-secondary);
                     display: inline-block;

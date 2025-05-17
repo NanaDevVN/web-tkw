@@ -49,8 +49,37 @@
             display: block;
             opacity: 0;
             overflow-y: auto;
-            padding-top: 10px;
+            padding: 1em 10px;
             background-color: rgba(0, 0, 0, 0.75);
+
+            div {
+                margin-top: 1em;
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    column-gap: 1em;
+                    padding: 10px;
+                    background-color: var(--cl-accent-primary);
+                    border: none;
+                    border-radius: 100px;
+                    outline: none;
+                    color: var(--cl-text-light);
+                    cursor: pointer;
+
+                    svg {
+                        width: 1.5em;
+                        height: 1.5em;
+                    }
+                }
+            }
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
         }
 
         &:hover .info {

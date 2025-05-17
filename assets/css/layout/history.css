@@ -1,5 +1,5 @@
 .history-icon::before {
-    mask-image: url(/assets/icon/clock-history.svg);
+    mask-image: url(../../icon/clock-history.svg);
 }
 
 .history-container {

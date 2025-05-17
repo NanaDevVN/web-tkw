@@ -41,6 +41,7 @@ async function buildChapter() {
         errorDiv.className = 'error';
         errorDiv.textContent = 'Không thể tải chương. Vui lòng thử lại sau.';
         document.getElementById('comic-chap-image')?.appendChild(errorDiv);
+        return -1;
     }
 }
 
@@ -113,6 +114,9 @@ async function setNavLinks() {
 }
 
 // Initialize
-buildChapter().then(r => {});
 setNavLinks().then(r => {})
-countdown(1, initProgressCircle)
+buildChapter().then(r => {
+    if (r !== -1) {
+        countdown(1, initProgressCircle)
+    }
+});

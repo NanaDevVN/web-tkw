@@ -53,9 +53,10 @@ function createWatchlistItem(entry, detailsMap, watchlistContainer) {
 
     const titleDiv = document.createElement('div');
     titleDiv.className = CONFIG.CLASSES.TITLE;
-    const titleP = document.createElement('p');
-    titleP.textContent = comicName;
-    titleDiv.appendChild(titleP);
+    const titleA = document.createElement('a');
+    titleA.textContent = comicName;
+    titleA.href = `detail.html?comicID=${comicID}`
+    titleDiv.appendChild(titleA);
 
     const descDiv = document.createElement('div');
     descDiv.className = CONFIG.CLASSES.DESC;
